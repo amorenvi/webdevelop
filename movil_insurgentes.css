@@ -227,7 +227,7 @@ p.b-titulo::before {
  background:#00aeef
 }
 .bloque h3 {
- font-family: "Alfa Slab One", cursive !important;
+ /* font-family: "Alfa Slab One", cursive !important; */
  font-weight:700;
  font-size:56px;
  text-align:center;
