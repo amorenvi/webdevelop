@@ -1,35 +1,74 @@
 @import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.8.1/css/all.css');
 
 .bar-header {
-  background-color: #0655a3;
+  background-color: #0355a3;
 }
 
 ion-side-menu li .item {
   background-color: #587c99;
   border-color: #009496;
   color: #e0e0e0;
+
 }
 
+ion-side-menu li.item {
+  border-color: #4F5865;
+  }
 
+ion-side-menu li.item.item-divider {
+  background-color: #3E4755;
+}
+
+.ion-ionic {
+  color: orange;
+}
+.ion-home {
+  color: blue;
+}
+.ion-ios-bell {
+  color: yellow;
+}
+.ion-chatbox {
+  color: green;
+}
+.ion-calendar {
+  color: white;
+}
+.ion-folder {
+  color: purple;
+}
+.ion-earth {
+  color: maroon;
+}
+.ion-help-buoy {
+  color: orange;
+}
+.ion-gear-b {
+  color: dimgray;
+}
+.ion-log-out {
+  color: red;
+}
+
+.ion-ionic:before {
+  content: "\f3ea";
+}
+
+.mm-site_mm_courses .tabs-icon-left {
+  background-color: #EBEFF8;
+}
+.mm-site_mm_courses section h2 span {
+  font-weight: bold;
+}
 
 /* 3.5 styles */
-
 
 /** Header color */
 .toolbar-background-md,
 .toolbar-background-ios,
 .toolbar-background-wp {
   background: #5069A1;
-}
-
-.button-ios {
-    height: 2.8em;
-    font-size: 1.6rem;
-    color: #fff;
-    background-color: #0655a3;
-}
-ion-app.app-root.ios .button-ios-light {
-    color: #0655a3;
 }
 
 /* Bottom tabs selected color */
@@ -49,6 +88,97 @@ ion-app.app-root.ios .button-ios-light {
 .core-tabs-bar .slides a.tab-slide[aria-selected=true] {
   color: #5069A1 !important;
   border-bottom-color: #5069A1 !important;
+}
+
+/* Loading spinner */
+.spinner circle, .spinner line {
+    stroke: #5069A1;
+}
+
+/* Buttons */
+.button-md,
+.button-ios,
+.button-wp,
+.fab-ios,
+.fab-md,
+.fab-wp {
+  background-color: #5069A1;
+}
+
+.button-outline-md,
+.button-outline-ios,
+.button-outline-wp {
+    border-color: #5069A1;
+    background-color: #ffffff;
+    color: #5069A1;
+}
+
+.button-clear-md,
+.button-clear-ios,
+.button-clear-wp {
+  background-color: transparent;
+  color: #5069A1;
+}
+
+/* More icon colors */
+page-core-mainmenu-more .ion-md-notifications,
+page-core-mainmenu-more .ion-ios-notifications,
+page-core-mainmenu-more .ion-md-notifications {
+  color: yellow;
+}
+
+page-core-mainmenu-more .ion-md-stats,
+page-core-mainmenu-more .ion-ios-stats,
+page-core-mainmenu-more .ion-md-stats {
+  color: yellow;
+}
+
+page-core-mainmenu-more .ion-md-map,
+page-core-mainmenu-more .ion-ios-map,
+page-core-mainmenu-more .ion-wp-map {
+  color: green;
+}
+
+page-core-mainmenu-more .ion-md-folder,
+page-core-mainmenu-more .ion-ios-folder,
+page-core-mainmenu-more .ion-wp-folder {
+  color: purple;
+}
+
+page-core-mainmenu-more .ion-md-link,
+page-core-mainmenu-more .ion-ios-link,
+page-core-mainmenu-more .ion-wp-link {
+  color: maroon;
+}
+
+page-core-mainmenu-more .ion-md-globe,
+page-core-mainmenu-more .ion-ios-globe,
+page-core-mainmenu-more .ion-wp-globe {
+  color: maroon;
+}
+
+page-core-mainmenu-more .ion-md-qr-scanner,
+page-core-mainmenu-more .ion-ios-qr-scanner,
+page-core-mainmenu-more .ion-wp-qr-scanner {
+  color: orange;
+}
+
+page-core-mainmenu-more .ion-md-help-buoy,
+page-core-mainmenu-more .ion-ios-help-buoy,
+page-core-mainmenu-more .ion-wp-help-buoy {
+  color: orange;
+}
+
+page-core-mainmenu-more .ion-md-cog,
+page-core-mainmenu-more .ion-ios-cog,
+page-core-mainmenu-more .ion-wp-cog {
+  color: dimgray;
+}
+
+page-core-mainmenu-more .ion-md-log-out,
+page-core-mainmenu-more .ion-ios-log-out,
+page-core-mainmenu-more .ion-wp-log-out {
+  color: red;
 }
 
 .bloque {
