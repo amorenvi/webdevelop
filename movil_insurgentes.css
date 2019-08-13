@@ -365,17 +365,18 @@ p.b-nombre {
  transform:scale(1)!important
 }
 .video {
- position:relative;
- padding-bottom:54.25%;
- padding-top:25px;
- height:0
+ position: relative;
+ height: 0;
+ margin: 5px;
+ padding-bottom: 92%;
 }
 .video iframe {
- position:absolute;
- top:0;
+ top: -92px;
  left:0;
  width:100%;
- height:100%;
+ height: 100%;
+ position: absolute;
+ display: block;
 }
 #course-toc .snap-section-complete {
  width:.7em;
