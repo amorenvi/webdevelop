@@ -1,5 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Roboto:400,500');
 @import url('https://use.fontawesome.com/releases/v5.8.1/css/all.css');
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700');
 
 .bar-header {
   background-color: #0355a3;
@@ -68,7 +70,7 @@ ion-side-menu li.item.item-divider {
 .toolbar-background-md,
 .toolbar-background-ios,
 .toolbar-background-wp {
-  background: #5069A1;
+  background: #0655a3;
 }
 
 /* Bottom tabs selected color */
