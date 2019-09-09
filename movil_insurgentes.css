@@ -383,7 +383,8 @@ h1>a {
 }
 .vanguardia li:hover::after {
  top:10px;
- opacity:1
+ opacity:1;
+ color: transparent; 
 }
 .vanguardia li:hover p {
  color:#2b3d45!important
