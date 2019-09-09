@@ -360,7 +360,7 @@ h1>a {
  -o-transition:all .2s linear;
  transition:all .2s linear
 }
-.vanguardia li::after {
+/*.vanguardia li::after {
  content:"ÃÂÃÂ¯ÃÂÃÂÃÂÃÂ";
  position:absolute;
  right:10px;
@@ -375,7 +375,7 @@ h1>a {
  -ms-transition:all .15s linear;
  -o-transition:all .15s linear;
  transition:all .15s linear
-}
+}*/
 .vanguardia li:hover {
  -webkit-box-shadow:0 4px 12px rgba(50,50,93,.15),0 1px 6px rgba(0,0,0,.12);
  box-shadow:0 4px 12px rgba(50,50,93,.15),0 1px 6px rgba(0,0,0,.12);
