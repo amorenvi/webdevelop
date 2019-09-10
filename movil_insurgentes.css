@@ -424,10 +424,10 @@ h1>a {
  -o-transition:all .15s linear;
  transition:all .15s linear
 }
-.vanguardia li:hover i {
+/*.vanguardia li:hover i {
  opacity:1;
  color:#2b3d45
-}
+}*/
 p.t-tab {
  font-weight:600;
  color:#2d3339!important;
